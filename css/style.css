@@ -1,0 +1,10 @@
+.gris {
+    background-color: #9DB5B2;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
