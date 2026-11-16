@@ -12,3 +12,5 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="Connexion">pour vous connécter</a></li>
       </ul>
+      <h1>Nos services</h1>
+      <p>Nous offrons une gamme complète de services pour répondre à vos besoins. Que
