@@ -6,6 +6,8 @@
      <link rel="stylesheet" href="css/Style.css"
    </head>
    <body>
+        <?php include "inc/menu.php"; ?>
+
      <ul  class="menu">
         <li><a href="Presentation de l'entreprise">Presentation de l'entreprise</a></li>
         <li><a href="Nos services">Nos services</a></li>
