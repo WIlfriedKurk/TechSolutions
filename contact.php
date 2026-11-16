@@ -7,11 +7,12 @@
    </head>
    <body>
         <?php include "inc/menu.php"; ?>
+        <?php include "inc/pied.php"; ?>
      <ul  class="menu">
-        <li><a href="Presentation de l'entreprise">Presentation de l'entreprise</a></li>
-        <li><a href="Nos services">Nos services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="Connexion">pour vous connécter</a></li>
+        <li><a href="index.php">Presentation de l'entreprise</a></li>
+        <li><a href="Nos services.php">Nos services</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="Connexion.php">pour vous connécter</a></li>
       </ul>
       <p><h4>Une question ? Appelez-nous</p></h4>
       <p>Nos coordonnées</p>

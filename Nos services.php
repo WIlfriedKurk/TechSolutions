@@ -9,11 +9,11 @@
         <?php include "inc/menu.php"; ?>
 
      <ul  class="menu">
-        <li><a href="Presentation de l'entreprise">Presentation de l'entreprise</a></li>
-        <li><a href="Nos services">Nos services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="Connexion">pour vous connécter</a></li>
+        <li><a href="index.php">Presentation de l'entreprise</a></li>
+        <li><a href="Nos services.php">Nos services</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="Connexion.php">pour vous connécter</a></li>
       </ul>
-      
+      <?php include "inc/pied.php"; ?>
       <h1>Nos services</h1>
       <p>Nous offrons une gamme complète de services pour répondre à vos besoins. Que
