@@ -7,7 +7,6 @@
    </head>
    <body>
         <?php include "inc/menu.php"; ?>
-        <?php include "inc/pied.php"; ?>
      <ul  class="menu">
         <li><a href="index.php">Presentation de l'entreprise</a></li>
         <li><a href="Nos services.php">Nos services</a></li>
@@ -30,5 +29,6 @@
         <td width="50%" valign=top>9h00 - 12h00</td>
     </tr>
 </table>
+ <?php include "inc/pied.php"; ?>
 </body>
 </html>

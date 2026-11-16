@@ -14,6 +14,6 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="Connexion.php">pour vous connécter</a></li>
       </ul>
-      <?php include "inc/pied.php"; ?>
       <h1>Nos services</h1>
-      <p>Nous offrons une gamme complète de services pour répondre à vos besoins. Que
+      <p>Nous offrons une gamme complète de services pour répondre à vos besoins. Que vous soyez un particulier ou une entreprise, nous pouvons vous aider à atteindre vos objectifs.</p>
+      <?php include "inc/pied.php"; ?>
