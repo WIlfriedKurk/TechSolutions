@@ -12,6 +12,8 @@
 <H1>Accueil</H1>
 <H3>Bienvenue sur notre site</H3>
 <p>TechSolutions accompagne les petites entreprises de la région de Brive dans la gestion de leur informatique : installation, maintenance, sauvegarde et assistance.</p>
+<p>Une équipe à votre service depuis <?php echo $creation; ?>.</p>
+<p> Soit <?php echo date("Y") - $creation; ?> ans d'expérience au service des entreprises de la région.</p>
 <H3>Pourquoi nous choisir ?</H3>
 <p>Une équipe locale, qui se déplace chez vous. Une réponse rapide en cas de panne. Des tarifs clairs, sans surprise.</p>
 <H3>nos services</H3>

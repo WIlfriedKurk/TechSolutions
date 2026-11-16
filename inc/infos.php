@@ -4,4 +4,5 @@ $entreprise = "TechSolutions";
 $ville = "Brive-la-Gaillarde";
 $telephone = "05 55 11 22 33";
 $adresse = "zone d'activités, 19100 Brive-la-Gaillarde";
+$creation=2012
 ?>
