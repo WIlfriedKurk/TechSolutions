@@ -10,7 +10,7 @@
 
      <ul  class="menu">
         <li><a href="index.php">Presentation de l'entreprise</a></li>
-        <li><a href="Nos services.php">Nos services</a></li>
+        <li><a href="service.php">Nos services</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="Connexion.php">pour vous connécter</a></li>
       </ul>
