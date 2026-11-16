@@ -7,6 +7,7 @@
    </head>
    <body>
         <?php include "inc/menu.php"; ?>
+        <?php include "inc/pied.php"; ?>
 
      <ul  class="menu">
         <li><a href="Presentation de l'entreprise">Presentation de l'entreprise</a></li>
