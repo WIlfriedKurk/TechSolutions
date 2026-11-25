@@ -1,18 +1,5 @@
 <?php
 session_start();
-
-// Page réservée aux personnes connectées...
-if (!isset($_SESSION["id"])) {
-    header("Location: connexion.php");
-    exit;
-}
-// ... et, parmi elles, à l'administrateur
-if ($_SESSION["role"] != "admin") {
-    header("Location: espace.php");
-    exit;
-}
-<?php
-session_start();
 include "inc/infos.php";
 require "inc/bdd.php";
 
@@ -45,6 +32,15 @@ if ($utilisateur && password_verify($motdepasse, $utilisateur["mot_de_passe"])) 
   </head>
   <body>
     <?php include "inc/menu.php"; ?>
+
+    <h1>Espace salariés</h1>
+    <p class="erreur">Identifiant ou mot de passe incorrect.</p>
+    <p><a href="connexion.php">Réessayer</a></p>
+
+    <?php include "inc/pied.php"; ?>
+  </body>
+</html>
+
 
     <h1>Espace salariés</h1>
     <p class="erreur">Identifiant ou mot de passe incorrect.</p>
