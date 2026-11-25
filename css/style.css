@@ -11,3 +11,24 @@
 #pied {
     text-align: center; 
 }
+
+.formulaire {
+    font-color: #c5ccd3;
+    padding: 10px 20px;
+    max-width: 400px;
+}
+.input {
+    width: 300px;
+    padding: 8px;
+    font-color: #c5CCD3;
+}
+.button {
+    font-color: #e67e22;
+    font-weight: bold;
+    border: 0px;
+    padding: 10px 20px;
+}
+.erreur {
+    color: #b03a2e;
+    font-weight: bold;
+}
