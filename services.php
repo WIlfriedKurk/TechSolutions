@@ -17,7 +17,7 @@ $tva = 20;
    <body>
         <?php include "inc/menu.php"; ?>
       <h1>Nos services</h1>
-      <p>Nous offrons une gamme complète de services pour répondre à vos besoins. Que vous soyez un particulier ou une entreprise, nous pouvons vous aider à atteindre vos objectifs.</p>
+      <p>Tout ce dont votre entreprise a besoin</p>
       <table width="100%" border="1">
         <tr class="gris"> <th width="25%" valign=top>Formule</th>
         <th width="50%" valign=top>Ce qui est compris</th>
@@ -44,4 +44,4 @@ $tva = 20;
       </tr>
     </table>
     <p> TVA au taux de 20%</p>
-    <?php include "inc/pied.php"; ?>
+    <?php include "inc/pied.php"; ?>  

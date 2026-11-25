@@ -12,9 +12,8 @@ require "inc/bdd.php";
    <body>
      <?php include "inc/menu.php"; ?>
      <h1>Espace salariés</h1>
-     <P>Connectez-vous avec votre identifiant</p>
-<form action="verifier.php" method="post">
-      <p>
+     <h2 font-weight="bold" style="color: orange;">Connectez-vous avec votre identifiant</h2>
+<form action="verifier.php" method="post" class="formulaire" >
         <label for="identifiant">Identifiant</label><br>
         <input type="text" id="identifiant" name="identifiant" required>
       </p>

@@ -32,5 +32,6 @@ $utilisateurs = $requete->fetchAll();
         <td><?php echo $u["role"]; ?></td>
       </tr>
       <?php } ?>
+      <a href=espace.php>Retour à mon espace</a>
     </table>
 <?php include "inc/pied.php"; ?>
